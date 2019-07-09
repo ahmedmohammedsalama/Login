@@ -1,0 +1,111 @@
+body{
+	background-color: #f7f7f7;
+	height: 500px
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+}
+
+.login .frame{
+	width: 58%;
+	float: left;
+}
+
+.login .frame:last-of-type{
+	width: 42%;
+	overflow: hidden;
+}
+
+.login .frame h2{
+	font-size: 30px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 10%;
+}
+
+.login .frame input:first-of-type,
+.login .frame input:nth-of-type(2){
+    width: 452px;
+    display: block;
+    height: 88px;
+    padding-left: 39px;
+    margin-top: 18px;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.2;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+}
+
+.login .frame input:last-of-type{
+	width: 20px;
+	height: 20px
+}
+
+.login .frame label{
+	font-family: Poppins-Regular;
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.4;
+    display: block;
+    padding-left: 26px;
+    cursor: pointer;
+    margin-top: -26px;
+}
+
+.login .frame span{
+	float: right;
+    padding-right: 68px;
+    display: block;
+    font-family: Montserrat-Regular;
+    font-size: 17px;
+    line-height: 1.4;
+    color: #555555;
+    margin-top: -20px;
+}
+
+button{
+	width: 88%;
+    height: 55px;
+    margin-top: 33px;
+    border: 1px solid #6675df;
+    background-color: #6675df;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.login .frame p{
+	text-align: center;
+    margin-right: 55px;
+    padding-top: 39px;
+    font-family: Montserrat-Regular;
+    font-size: 17px;
+    color: #999999;
+}
+
+.login .frame i{
+    border: 1px solid transparent;
+    width: 31px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 151px;
+}
+
+.login .frame .fa-facebook{
+	background-color: #3b5998;
+}
+
+.login .frame .fa-twitter{
+	background-color: #1da1f2;
+}
